@@ -1,0 +1,2 @@
+自行配置setting与secure文件
+从fisher.py启动
