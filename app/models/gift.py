@@ -53,4 +53,5 @@ class Gift(Base):
     def is_yourself_gift(self, uid):
         return True if self.uid == uid else False
 
+
 from app.models.wish import Wish

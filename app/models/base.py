@@ -43,3 +43,6 @@ class Base(db.Model): #让子模型直接继承Bsae间接继承了db.model
             return datetime.fromtimestamp(self.create_time) #将时间戳转化为时间类型
         else:
             return None
+
+    def delete(self):
+        self.status = 0
